@@ -71,9 +71,23 @@ aside {
 
 aside blockquote {
    color: rgb(232, 165, 116);
+   margin: 20px 5px;
+   quotes: "\201C" "\201D";
 }
 
+aside blockquote::before {
+   content: open-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
 
+aside blockquote::after {
+   content: close-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
 
 /* Navigation Styles */	
 
@@ -83,17 +97,44 @@ nav {
 
 nav > ul {
    line-height: 2em;
-}
+
 
 /* List Styles */
 
+article#about_tss ul li:first-of-type {
+   list-style-image: url(runicon.png);
+}
 
+article#about_tss ul :nth-of-type(2) {
+   list-style-image: url(bikeicon.png);
+}
 
+article#about_tss ul :last-of-type {
+   list-style-image: url(swimicon.png);
+}
 
+article.syllabus ol {
+   list-style-type: upper-roman;
+}
+
+article.syllabus ol ol {
+   list-style-type: upper-alpha;
+}
+
+article.syllabus ol ol ol {
+   list-style-type: decimal;
+}
 
 /* Footer Styles */
 
-
+body > footer address {
+   background-color: rgb(222, 128, 60);
+   color: white;
+   color: rgba(255, 255, 255, 0.7);
+   font: normal small-caps bold 0.9em/3em
+         Quicksand, Verdana, Geneva, sans-serif;
+   text-align: center;
+}
 
 
 
