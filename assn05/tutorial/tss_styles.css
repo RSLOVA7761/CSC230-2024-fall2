@@ -31,6 +31,7 @@ body {
    color: rgb(91, 91, 91);
    background-color: ivory;
    font-family: Verdana, Geneva, san-serif;
+   letter-spacing: 0.1em;
 }
 
 /* Heading Styles */
@@ -80,7 +81,9 @@ nav {
    font-size: 0.8em;
 }
 
-
+nav > ul {
+   line-height: 2em;
+}
 
 /* List Styles */
 
