@@ -71,6 +71,7 @@ aside {
 
 aside blockquote {
    color: rgb(232, 165, 116);
+   margin: 20px 5px;
 }
 
 
@@ -85,6 +86,10 @@ nav > ul {
    line-height: 2em;
    list-style-type: none;
    padding-left: 5px;
+}
+
+nav > ul > li.newgroup {
+   margin-top: 20px;
 }
 
 /* List Styles */
