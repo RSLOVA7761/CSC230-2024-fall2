@@ -41,10 +41,10 @@ body {
 
 /* Page Header Styles */
 
-
-
-
-
+#logo {
+   grid-column: span 3;
+   width: 100%;
+}
 
 /* Horizontal Navigation List Styles */
 
