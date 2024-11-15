@@ -56,6 +56,12 @@ aside {
    grid-column: span 2;
 }
 
+nav.vertical li {
+   display: block;
+   width: 12.5%;
+   float: left;
+}
+
 /* Topics Styles */
 
 
