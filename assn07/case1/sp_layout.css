@@ -42,21 +42,21 @@ body {
 /* Page Header Styles */
 
 #logo {
-   grid-column: span 3;
+   grid-column: 1/span 3;
    width: 100%;
 }
 
 /* Horizontal Navigation List Styles */
 
-nav.horizontal, footer {
-   grid-column: span 4;
+nav, footer {
+   grid-column: 1/span 4;
 }
 
 aside {
-   grid-column: span 2;
+   grid-column: 3/span 2;
 }
 
-nav.vertical li {
+nav li {
    display: block;
    width: 12.5%;
    float: left;
@@ -101,7 +101,11 @@ aside img {
    width: 20%;
 }
 
-
+aside p {
+   float: left;
+   width: 75%;
+   margin-left: 5%;
+}
 /* Footer Styles */
 
 
