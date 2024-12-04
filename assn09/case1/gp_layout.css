@@ -45,7 +45,9 @@ article {
    img.panel {
       width: 100%;
    }
-   
+   nav.horiztonal {
+      order: 99;
+   }
 }
 
 
