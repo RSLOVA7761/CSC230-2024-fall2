@@ -28,7 +28,9 @@ body {
    flex-flow: row wrap;
 }
 
-
+section#sheet {
+   flex: 3 1 301px;
+}
 
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
