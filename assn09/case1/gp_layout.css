@@ -45,8 +45,13 @@ article {
    img.panel {
       width: 100%;
    }
+   
    nav.horiztonal {
       order: 99;
+   }
+
+   body > footer {
+      order: 100;
    }
 }
 
