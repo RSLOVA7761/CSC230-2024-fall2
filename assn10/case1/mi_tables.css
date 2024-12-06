@@ -15,7 +15,10 @@
 
 /* Table Styles */
 
-
+table {
+   background: linear-gradient(bottom, rgb(190, 215, 255));
+   border: 5px solid gray;
+}
 
 /* Column Styles */
 
