@@ -16,7 +16,7 @@
 /* Table Styles */
 
 table {
-   background: linear-gradient(bottom, rgb(190, 215, 255));
+   background: linear-gradient(to bottom, rgb(190, 215, 255), black);
    border: 5px solid gray;
 }
 
@@ -58,7 +58,10 @@ table thead tr:first-of-type th:first-of-type {
    font-size: 2em;
 }
 
-
+table thead tr:first-of-type th:not(:first-of-type) {
+   background-color: transparent;
+   color: black;
+}
 
 
 
