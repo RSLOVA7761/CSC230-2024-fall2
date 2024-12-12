@@ -83,3 +83,14 @@ body > nav > ul > li > h3 > a:hover, body > nav > ul > li > h3 > a:active {
    color: rgb(84, 9, 99);
    text-decoration: underline;
 }
+
+body > nav > ul > li > table > tr > th > td > a:link, body > nav > ul > li > table > tr > th > td > a:visited {
+    color: rgb(49, 133, 77);
+    text-decoration: none;
+ }
+
+ body > nav > ul > li > table > tr > th > td > a:hover, body > nav > ul > li > table > tr > th > td > a:active {
+    color: rgb(84, 9, 99);
+    text-decoration: underline;
+ }
+ 
